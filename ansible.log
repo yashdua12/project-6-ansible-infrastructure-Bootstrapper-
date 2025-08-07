@@ -1,0 +1,490 @@
+2025-08-07 06:54:05,128 p=4670 u=root n=ansible WARNING| [WARNING]: Unable to parse /root/ansible/inventory.yml as an inventory source
+
+2025-08-07 06:54:05,128 p=4670 u=root n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-08-07 06:54:05,131 p=4670 u=root n=ansible WARNING| [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit
+localhost does not match 'all'
+
+2025-08-07 06:54:05,131 p=4670 u=root n=ansible WARNING| [WARNING]: Could not match supplied host pattern, ignoring: webhosts
+
+2025-08-07 06:55:04,847 p=4679 u=root n=ansible WARNING| [WARNING]: Unable to parse /root/ansible/inventory.yml as an inventory source
+
+2025-08-07 06:55:04,847 p=4679 u=root n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-08-07 06:55:04,850 p=4679 u=root n=ansible WARNING| [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit
+localhost does not match 'all'
+
+2025-08-07 06:55:04,851 p=4679 u=root n=ansible WARNING| [WARNING]: Could not match supplied host pattern, ignoring: webhosts
+
+2025-08-07 06:56:52,701 p=4722 u=root n=ansible WARNING| [WARNING]: Unable to parse /root/ansible/inventory.yml as an inventory source
+
+2025-08-07 06:56:52,701 p=4722 u=root n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-08-07 06:56:52,705 p=4722 u=root n=ansible INFO| {
+    "_meta": {
+        "hostvars": {}
+    },
+    "all": {
+        "children": [
+            "ungrouped"
+        ]
+    }
+}
+2025-08-07 06:58:45,328 p=4727 u=root n=ansible WARNING| [WARNING]: Unable to parse /root/ansible/inventory.yml as an inventory source
+
+2025-08-07 06:58:45,328 p=4727 u=root n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-08-07 06:58:45,331 p=4727 u=root n=ansible WARNING| [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit
+localhost does not match 'all'
+
+2025-08-07 06:58:45,332 p=4727 u=root n=ansible WARNING| [WARNING]: Could not match supplied host pattern, ignoring: webhosts
+
+2025-08-07 06:59:13,765 p=4731 u=root n=ansible WARNING| [WARNING]: Unable to parse /root/ansible/inventory.yml as an inventory source
+
+2025-08-07 06:59:13,765 p=4731 u=root n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-08-07 06:59:13,769 p=4731 u=root n=ansible INFO| {
+    "_meta": {
+        "hostvars": {}
+    },
+    "all": {
+        "children": [
+            "ungrouped"
+        ]
+    }
+}
+2025-08-07 07:00:54,804 p=4742 u=root n=ansible WARNING| [WARNING]: Unable to parse /root/ansible/inventory.yml as an inventory source
+
+2025-08-07 07:00:54,805 p=4742 u=root n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-08-07 07:00:54,808 p=4742 u=root n=ansible INFO| {
+    "_meta": {
+        "hostvars": {}
+    },
+    "all": {
+        "children": [
+            "ungrouped"
+        ]
+    }
+}
+2025-08-07 07:04:10,957 p=4753 u=root n=ansible WARNING| [WARNING]: Unable to parse /root/ansible/inventory.yml as an inventory source
+
+2025-08-07 07:04:10,957 p=4753 u=root n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-08-07 07:04:10,961 p=4753 u=root n=ansible INFO| {
+    "_meta": {
+        "hostvars": {}
+    },
+    "all": {
+        "children": [
+            "ungrouped"
+        ]
+    }
+}
+2025-08-07 07:04:40,674 p=4756 u=root n=ansible WARNING| [WARNING]: Unable to parse /root/ansible/inventory.yml as an inventory source
+
+2025-08-07 07:04:40,675 p=4756 u=root n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-08-07 07:04:40,678 p=4756 u=root n=ansible INFO| {
+    "_meta": {
+        "hostvars": {}
+    },
+    "all": {
+        "children": [
+            "ungrouped"
+        ]
+    }
+}
+2025-08-07 07:05:34,818 p=4765 u=root n=ansible WARNING| [WARNING]: Unable to parse /root/ansible/inventory.yml as an inventory source
+
+2025-08-07 07:05:34,818 p=4765 u=root n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-08-07 07:05:34,821 p=4765 u=root n=ansible INFO| {
+    "_meta": {
+        "hostvars": {}
+    },
+    "all": {
+        "children": [
+            "ungrouped"
+        ]
+    }
+}
+2025-08-07 07:08:32,226 p=4770 u=root n=ansible WARNING| [WARNING]: Unable to parse /root/ansible/inventory.yml as an inventory source
+
+2025-08-07 07:08:32,226 p=4770 u=root n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-08-07 07:08:32,230 p=4770 u=root n=ansible INFO| {
+    "_meta": {
+        "hostvars": {}
+    },
+    "all": {
+        "children": [
+            "ungrouped"
+        ]
+    }
+}
+2025-08-07 07:09:16,402 p=4775 u=root n=ansible INFO| {
+    "_meta": {
+        "hostvars": {
+            "web01": {
+                "ansible_host": "172.31.29.12",
+                "ansible_ssh_private_key_file": "key.pem",
+                "ansible_user": "ubuntu"
+            },
+            "web02": {
+                "ansible_host": "172.31.20.140",
+                "ansible_ssh_private_key_file": "key.pem",
+                "ansible_user": "ubuntu"
+            },
+            "web03": {
+                "ansible_host": "172.31.23.46",
+                "ansible_ssh_private_key_file": "key.pem",
+                "ansible_user": "ubuntu"
+            }
+        }
+    },
+    "all": {
+        "children": [
+            "ungrouped",
+            "webhosts"
+        ]
+    },
+    "webhosts": {
+        "hosts": [
+            "web01",
+            "web02",
+            "web03"
+        ]
+    }
+}
+2025-08-07 07:09:50,148 p=4779 u=root n=ansible WARNING| [WARNING]: Platform linux on host web01 is using the discovered Python interpreter at
+/usr/bin/python3.12, but future installation of another Python interpreter could change the meaning
+of that path. See https://docs.ansible.com/ansible-
+core/2.18/reference_appendices/interpreter_discovery.html for more information.
+
+2025-08-07 07:09:50,151 p=4779 u=root n=ansible INFO| web01 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.12"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-07 07:09:50,168 p=4779 u=root n=ansible WARNING| [WARNING]: Platform linux on host web02 is using the discovered Python interpreter at
+/usr/bin/python3.12, but future installation of another Python interpreter could change the meaning
+of that path. See https://docs.ansible.com/ansible-
+core/2.18/reference_appendices/interpreter_discovery.html for more information.
+
+2025-08-07 07:09:50,169 p=4779 u=root n=ansible INFO| web02 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.12"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-07 07:09:51,325 p=4779 u=root n=ansible WARNING| [WARNING]: Platform linux on host web03 is using the discovered Python interpreter at
+/usr/bin/python3.12, but future installation of another Python interpreter could change the meaning
+of that path. See https://docs.ansible.com/ansible-
+core/2.18/reference_appendices/interpreter_discovery.html for more information.
+
+2025-08-07 07:09:51,325 p=4779 u=root n=ansible INFO| web03 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.12"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-07 07:53:32,191 p=5504 u=root n=ansible ERROR| ERROR! the playbook: playbook.yml could not be found
+2025-08-07 07:53:40,979 p=5507 u=root n=ansible INFO| PLAY [Bootstrap the server infrastructure] *********************************************************
+2025-08-07 07:53:40,999 p=5507 u=root n=ansible INFO| TASK [Gathering Facts] *****************************************************************************
+2025-08-07 07:53:43,263 p=5507 u=root n=ansible WARNING| [WARNING]: Platform linux on host web01 is using the discovered Python interpreter at
+/usr/bin/python3.12, but future installation of another Python interpreter could change the meaning
+of that path. See https://docs.ansible.com/ansible-
+core/2.18/reference_appendices/interpreter_discovery.html for more information.
+
+2025-08-07 07:53:43,263 p=5507 u=root n=ansible INFO| ok: [web01]
+2025-08-07 07:53:43,279 p=5507 u=root n=ansible WARNING| [WARNING]: Platform linux on host web02 is using the discovered Python interpreter at
+/usr/bin/python3.12, but future installation of another Python interpreter could change the meaning
+of that path. See https://docs.ansible.com/ansible-
+core/2.18/reference_appendices/interpreter_discovery.html for more information.
+
+2025-08-07 07:53:43,279 p=5507 u=root n=ansible INFO| ok: [web02]
+2025-08-07 07:53:43,698 p=5507 u=root n=ansible WARNING| [WARNING]: Platform linux on host web03 is using the discovered Python interpreter at
+/usr/bin/python3.12, but future installation of another Python interpreter could change the meaning
+of that path. See https://docs.ansible.com/ansible-
+core/2.18/reference_appendices/interpreter_discovery.html for more information.
+
+2025-08-07 07:53:43,698 p=5507 u=root n=ansible INFO| ok: [web03]
+2025-08-07 07:53:43,704 p=5507 u=root n=ansible INFO| TASK [users : Create user] *************************************************************************
+2025-08-07 07:53:44,390 p=5507 u=root n=ansible INFO| changed: [web03]
+2025-08-07 07:53:44,395 p=5507 u=root n=ansible INFO| changed: [web01]
+2025-08-07 07:53:44,397 p=5507 u=root n=ansible INFO| changed: [web02]
+2025-08-07 07:53:44,403 p=5507 u=root n=ansible INFO| TASK [users : Add authorized SSH key for devops] ***************************************************
+2025-08-07 07:53:45,017 p=5507 u=root n=ansible INFO| fatal: [web01]: FAILED! => {"changed": false, "msg": "invalid key specified: -----BEGIN RSA PRIVATE KEY-----"}
+2025-08-07 07:53:45,022 p=5507 u=root n=ansible INFO| fatal: [web02]: FAILED! => {"changed": false, "msg": "invalid key specified: -----BEGIN RSA PRIVATE KEY-----"}
+2025-08-07 07:53:45,024 p=5507 u=root n=ansible INFO| fatal: [web03]: FAILED! => {"changed": false, "msg": "invalid key specified: -----BEGIN RSA PRIVATE KEY-----"}
+2025-08-07 07:53:45,025 p=5507 u=root n=ansible INFO| PLAY RECAP *****************************************************************************************
+2025-08-07 07:53:45,025 p=5507 u=root n=ansible INFO| web01                      : ok=2    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-07 07:53:45,026 p=5507 u=root n=ansible INFO| web02                      : ok=2    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-07 07:53:45,026 p=5507 u=root n=ansible INFO| web03                      : ok=2    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-07 07:58:00,320 p=5611 u=root n=ansible INFO| PLAY [Bootstrap the server infrastructure] *********************************************************
+2025-08-07 07:58:00,330 p=5611 u=root n=ansible INFO| TASK [Gathering Facts] *****************************************************************************
+2025-08-07 07:58:02,548 p=5611 u=root n=ansible WARNING| [WARNING]: Platform linux on host web01 is using the discovered Python interpreter at
+/usr/bin/python3.12, but future installation of another Python interpreter could change the meaning
+of that path. See https://docs.ansible.com/ansible-
+core/2.18/reference_appendices/interpreter_discovery.html for more information.
+
+2025-08-07 07:58:02,548 p=5611 u=root n=ansible INFO| ok: [web01]
+2025-08-07 07:58:02,583 p=5611 u=root n=ansible WARNING| [WARNING]: Platform linux on host web02 is using the discovered Python interpreter at
+/usr/bin/python3.12, but future installation of another Python interpreter could change the meaning
+of that path. See https://docs.ansible.com/ansible-
+core/2.18/reference_appendices/interpreter_discovery.html for more information.
+
+2025-08-07 07:58:02,583 p=5611 u=root n=ansible INFO| ok: [web02]
+2025-08-07 07:58:02,611 p=5611 u=root n=ansible WARNING| [WARNING]: Platform linux on host web03 is using the discovered Python interpreter at
+/usr/bin/python3.12, but future installation of another Python interpreter could change the meaning
+of that path. See https://docs.ansible.com/ansible-
+core/2.18/reference_appendices/interpreter_discovery.html for more information.
+
+2025-08-07 07:58:02,612 p=5611 u=root n=ansible INFO| ok: [web03]
+2025-08-07 07:58:02,618 p=5611 u=root n=ansible INFO| TASK [users : Create user] *************************************************************************
+2025-08-07 07:58:03,230 p=5611 u=root n=ansible INFO| ok: [web01]
+2025-08-07 07:58:03,231 p=5611 u=root n=ansible INFO| ok: [web02]
+2025-08-07 07:58:03,260 p=5611 u=root n=ansible INFO| ok: [web03]
+2025-08-07 07:58:03,267 p=5611 u=root n=ansible INFO| TASK [users : Add authorized SSH key for devops] ***************************************************
+2025-08-07 07:58:03,883 p=5611 u=root n=ansible INFO| changed: [web02]
+2025-08-07 07:58:03,889 p=5611 u=root n=ansible INFO| changed: [web01]
+2025-08-07 07:58:03,889 p=5611 u=root n=ansible INFO| changed: [web03]
+2025-08-07 07:58:03,906 p=5611 u=root n=ansible INFO| TASK [ssh : Disable root login via SSH] ************************************************************
+2025-08-07 07:58:04,383 p=5611 u=root n=ansible INFO| changed: [web01]
+2025-08-07 07:58:04,391 p=5611 u=root n=ansible INFO| changed: [web02]
+2025-08-07 07:58:04,399 p=5611 u=root n=ansible INFO| changed: [web03]
+2025-08-07 07:58:04,407 p=5611 u=root n=ansible INFO| TASK [ssh : Disable password auth] *****************************************************************
+2025-08-07 07:58:04,785 p=5611 u=root n=ansible INFO| changed: [web02]
+2025-08-07 07:58:04,789 p=5611 u=root n=ansible INFO| changed: [web01]
+2025-08-07 07:58:04,806 p=5611 u=root n=ansible INFO| changed: [web03]
+2025-08-07 07:58:04,813 p=5611 u=root n=ansible INFO| TASK [ssh : Restart SSH service] *******************************************************************
+2025-08-07 07:58:05,707 p=5611 u=root n=ansible INFO| changed: [web01]
+2025-08-07 07:58:05,713 p=5611 u=root n=ansible INFO| changed: [web03]
+2025-08-07 07:58:05,718 p=5611 u=root n=ansible INFO| changed: [web02]
+2025-08-07 07:58:05,735 p=5611 u=root n=ansible INFO| TASK [updates : Update apt cache] ******************************************************************
+2025-08-07 07:58:20,213 p=5611 u=root n=ansible INFO| changed: [web02]
+2025-08-07 07:58:23,884 p=5611 u=root n=ansible INFO| changed: [web01]
+2025-08-07 07:58:26,543 p=5611 u=root n=ansible INFO| changed: [web03]
+2025-08-07 07:58:26,549 p=5611 u=root n=ansible INFO| TASK [updates : Upgrade all packages] **************************************************************
+2025-08-07 07:59:55,199 p=5611 u=root n=ansible INFO| changed: [web01]
+2025-08-07 07:59:56,467 p=5611 u=root n=ansible INFO| changed: [web02]
+2025-08-07 08:00:37,504 p=5611 u=root n=ansible INFO| changed: [web03]
+2025-08-07 08:00:37,521 p=5611 u=root n=ansible INFO| TASK [firewall : Ensure UFW is installed] **********************************************************
+2025-08-07 08:00:38,725 p=5611 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:00:38,785 p=5611 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:00:39,713 p=5611 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:00:39,720 p=5611 u=root n=ansible INFO| TASK [firewall : Allow OpenSSH] ********************************************************************
+2025-08-07 08:00:40,574 p=5611 u=root n=ansible INFO| changed: [web01]
+2025-08-07 08:00:40,586 p=5611 u=root n=ansible INFO| changed: [web02]
+2025-08-07 08:00:40,754 p=5611 u=root n=ansible INFO| changed: [web03]
+2025-08-07 08:00:40,760 p=5611 u=root n=ansible INFO| TASK [firewall : Enable UFW] ***********************************************************************
+2025-08-07 08:00:41,607 p=5611 u=root n=ansible INFO| changed: [web01]
+2025-08-07 08:00:41,636 p=5611 u=root n=ansible INFO| changed: [web02]
+2025-08-07 08:00:41,710 p=5611 u=root n=ansible INFO| changed: [web03]
+2025-08-07 08:00:41,728 p=5611 u=root n=ansible INFO| TASK [tomcat : Install Java (Tomcat dependency)] ***************************************************
+2025-08-07 08:01:07,696 p=5611 u=root n=ansible INFO| changed: [web01]
+2025-08-07 08:01:07,752 p=5611 u=root n=ansible INFO| changed: [web02]
+2025-08-07 08:01:32,378 p=5611 u=root n=ansible INFO| changed: [web03]
+2025-08-07 08:01:32,385 p=5611 u=root n=ansible INFO| TASK [tomcat : Create tomcat group] ****************************************************************
+2025-08-07 08:01:32,954 p=5611 u=root n=ansible INFO| changed: [web03]
+2025-08-07 08:01:32,959 p=5611 u=root n=ansible INFO| changed: [web02]
+2025-08-07 08:01:32,959 p=5611 u=root n=ansible INFO| changed: [web01]
+2025-08-07 08:01:32,967 p=5611 u=root n=ansible INFO| TASK [tomcat : Create tomcat user] *****************************************************************
+2025-08-07 08:01:33,508 p=5611 u=root n=ansible INFO| changed: [web01]
+2025-08-07 08:01:33,511 p=5611 u=root n=ansible INFO| changed: [web03]
+2025-08-07 08:01:33,520 p=5611 u=root n=ansible INFO| changed: [web02]
+2025-08-07 08:01:33,528 p=5611 u=root n=ansible INFO| TASK [tomcat : Download Tomcat] ********************************************************************
+2025-08-07 08:01:34,527 p=5611 u=root n=ansible INFO| fatal: [web01]: FAILED! => {"changed": false, "dest": "/tmp/tomcat.tar.gz", "elapsed": 0, "msg": "Request failed", "response": "HTTP Error 404: Not Found", "status_code": 404, "url": "https://downloads.apache.org/tomcat/tomcat-9/v9.0.85/bin/apache-tomcat-9.0.85.tar.gz"}
+2025-08-07 08:01:34,604 p=5611 u=root n=ansible INFO| fatal: [web02]: FAILED! => {"changed": false, "dest": "/tmp/tomcat.tar.gz", "elapsed": 0, "msg": "Request failed", "response": "HTTP Error 404: Not Found", "status_code": 404, "url": "https://downloads.apache.org/tomcat/tomcat-9/v9.0.85/bin/apache-tomcat-9.0.85.tar.gz"}
+2025-08-07 08:01:34,609 p=5611 u=root n=ansible INFO| fatal: [web03]: FAILED! => {"changed": false, "dest": "/tmp/tomcat.tar.gz", "elapsed": 0, "msg": "Request failed", "response": "HTTP Error 404: Not Found", "status_code": 404, "url": "https://downloads.apache.org/tomcat/tomcat-9/v9.0.85/bin/apache-tomcat-9.0.85.tar.gz"}
+2025-08-07 08:01:34,610 p=5611 u=root n=ansible INFO| PLAY RECAP *****************************************************************************************
+2025-08-07 08:01:34,611 p=5611 u=root n=ansible INFO| web01                      : ok=14   changed=11   unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-07 08:01:34,611 p=5611 u=root n=ansible INFO| web02                      : ok=14   changed=11   unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-07 08:01:34,611 p=5611 u=root n=ansible INFO| web03                      : ok=14   changed=11   unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-07 08:04:31,296 p=5998 u=root n=ansible INFO| PLAY [Bootstrap the server infrastructure] ****************************************************************************************************************************************************************
+2025-08-07 08:04:31,304 p=5998 u=root n=ansible INFO| TASK [Gathering Facts] ************************************************************************************************************************************************************************************
+2025-08-07 08:04:33,982 p=5998 u=root n=ansible WARNING| [WARNING]: Platform linux on host web01 is using the discovered Python interpreter at /usr/bin/python3.12, but future installation of another Python interpreter could change the meaning of that path.
+See https://docs.ansible.com/ansible-core/2.18/reference_appendices/interpreter_discovery.html for more information.
+
+2025-08-07 08:04:33,982 p=5998 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:04:34,040 p=5998 u=root n=ansible WARNING| [WARNING]: Platform linux on host web02 is using the discovered Python interpreter at /usr/bin/python3.12, but future installation of another Python interpreter could change the meaning of that path.
+See https://docs.ansible.com/ansible-core/2.18/reference_appendices/interpreter_discovery.html for more information.
+
+2025-08-07 08:04:34,040 p=5998 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:04:34,359 p=5998 u=root n=ansible WARNING| [WARNING]: Platform linux on host web03 is using the discovered Python interpreter at /usr/bin/python3.12, but future installation of another Python interpreter could change the meaning of that path.
+See https://docs.ansible.com/ansible-core/2.18/reference_appendices/interpreter_discovery.html for more information.
+
+2025-08-07 08:04:34,360 p=5998 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:04:34,365 p=5998 u=root n=ansible INFO| TASK [users : Create user] ********************************************************************************************************************************************************************************
+2025-08-07 08:04:34,973 p=5998 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:04:34,978 p=5998 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:04:34,978 p=5998 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:04:34,983 p=5998 u=root n=ansible INFO| TASK [users : Add authorized SSH key for devops] **********************************************************************************************************************************************************
+2025-08-07 08:04:35,588 p=5998 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:04:35,594 p=5998 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:04:35,594 p=5998 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:04:35,614 p=5998 u=root n=ansible INFO| TASK [ssh : Disable root login via SSH] *******************************************************************************************************************************************************************
+2025-08-07 08:04:36,102 p=5998 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:04:36,109 p=5998 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:04:36,109 p=5998 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:04:36,117 p=5998 u=root n=ansible INFO| TASK [ssh : Disable password auth] ************************************************************************************************************************************************************************
+2025-08-07 08:04:36,479 p=5998 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:04:36,505 p=5998 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:04:36,508 p=5998 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:04:36,515 p=5998 u=root n=ansible INFO| TASK [ssh : Restart SSH service] **************************************************************************************************************************************************************************
+2025-08-07 08:04:37,388 p=5998 u=root n=ansible INFO| changed: [web02]
+2025-08-07 08:04:37,409 p=5998 u=root n=ansible INFO| changed: [web03]
+2025-08-07 08:04:37,412 p=5998 u=root n=ansible INFO| changed: [web01]
+2025-08-07 08:04:37,429 p=5998 u=root n=ansible INFO| TASK [updates : Update apt cache] *************************************************************************************************************************************************************************
+2025-08-07 08:04:39,747 p=5998 u=root n=ansible INFO| changed: [web03]
+2025-08-07 08:04:43,365 p=5998 u=root n=ansible INFO| changed: [web02]
+2025-08-07 08:04:43,575 p=5998 u=root n=ansible INFO| changed: [web01]
+2025-08-07 08:04:43,582 p=5998 u=root n=ansible INFO| TASK [updates : Upgrade all packages] *********************************************************************************************************************************************************************
+2025-08-07 08:04:45,076 p=5998 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:04:45,093 p=5998 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:04:45,121 p=5998 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:04:45,139 p=5998 u=root n=ansible INFO| TASK [firewall : Ensure UFW is installed] *****************************************************************************************************************************************************************
+2025-08-07 08:04:46,198 p=5998 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:04:46,239 p=5998 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:04:46,269 p=5998 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:04:46,276 p=5998 u=root n=ansible INFO| TASK [firewall : Allow OpenSSH] ***************************************************************************************************************************************************************************
+2025-08-07 08:04:47,119 p=5998 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:04:47,126 p=5998 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:04:47,139 p=5998 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:04:47,146 p=5998 u=root n=ansible INFO| TASK [firewall : Enable UFW] ******************************************************************************************************************************************************************************
+2025-08-07 08:04:47,887 p=5998 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:04:47,907 p=5998 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:04:47,933 p=5998 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:04:47,951 p=5998 u=root n=ansible INFO| TASK [tomcat : Set Tomcat version] ************************************************************************************************************************************************************************
+2025-08-07 08:04:47,975 p=5998 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:04:47,994 p=5998 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:04:48,000 p=5998 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:04:48,007 p=5998 u=root n=ansible INFO| TASK [tomcat : Create tomcat group] ***********************************************************************************************************************************************************************
+2025-08-07 08:04:48,511 p=5998 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:04:48,525 p=5998 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:04:48,525 p=5998 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:04:48,532 p=5998 u=root n=ansible INFO| TASK [tomcat : Create tomcat user] ************************************************************************************************************************************************************************
+2025-08-07 08:04:48,987 p=5998 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:04:49,004 p=5998 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:04:49,008 p=5998 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:04:49,014 p=5998 u=root n=ansible INFO| TASK [tomcat : Download Tomcat] ***************************************************************************************************************************************************************************
+2025-08-07 08:04:49,999 p=5998 u=root n=ansible INFO| fatal: [web03]: FAILED! => {"changed": false, "dest": "/tmp/apache-tomcat-9.0.85.tar.gz", "elapsed": 0, "msg": "Request failed", "response": "HTTP Error 404: Not Found", "status_code": 404, "url": "https://downloads.apache.org/tomcat/tomcat-9/v9.0.85/bin/apache-tomcat-9.0.85.tar.gz"}
+2025-08-07 08:04:50,022 p=5998 u=root n=ansible INFO| fatal: [web02]: FAILED! => {"changed": false, "dest": "/tmp/apache-tomcat-9.0.85.tar.gz", "elapsed": 0, "msg": "Request failed", "response": "HTTP Error 404: Not Found", "status_code": 404, "url": "https://downloads.apache.org/tomcat/tomcat-9/v9.0.85/bin/apache-tomcat-9.0.85.tar.gz"}
+2025-08-07 08:04:50,030 p=5998 u=root n=ansible INFO| fatal: [web01]: FAILED! => {"changed": false, "dest": "/tmp/apache-tomcat-9.0.85.tar.gz", "elapsed": 0, "msg": "Request failed", "response": "HTTP Error 404: Not Found", "status_code": 404, "url": "https://downloads.apache.org/tomcat/tomcat-9/v9.0.85/bin/apache-tomcat-9.0.85.tar.gz"}
+2025-08-07 08:04:50,032 p=5998 u=root n=ansible INFO| PLAY RECAP ************************************************************************************************************************************************************************************************
+2025-08-07 08:04:50,032 p=5998 u=root n=ansible INFO| web01                      : ok=14   changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-07 08:04:50,032 p=5998 u=root n=ansible INFO| web02                      : ok=14   changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-07 08:04:50,032 p=5998 u=root n=ansible INFO| web03                      : ok=14   changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-07 08:08:46,446 p=6364 u=root n=ansible INFO| PLAY [Bootstrap the server infrastructure] *********************************************************
+2025-08-07 08:08:46,457 p=6364 u=root n=ansible INFO| TASK [Gathering Facts] *****************************************************************************
+2025-08-07 08:08:48,673 p=6364 u=root n=ansible WARNING| [WARNING]: Platform linux on host web03 is using the discovered Python interpreter at
+/usr/bin/python3.12, but future installation of another Python interpreter could change the meaning
+of that path. See https://docs.ansible.com/ansible-
+core/2.18/reference_appendices/interpreter_discovery.html for more information.
+
+2025-08-07 08:08:48,673 p=6364 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:08:48,722 p=6364 u=root n=ansible WARNING| [WARNING]: Platform linux on host web01 is using the discovered Python interpreter at
+/usr/bin/python3.12, but future installation of another Python interpreter could change the meaning
+of that path. See https://docs.ansible.com/ansible-
+core/2.18/reference_appendices/interpreter_discovery.html for more information.
+
+2025-08-07 08:08:48,722 p=6364 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:08:48,776 p=6364 u=root n=ansible WARNING| [WARNING]: Platform linux on host web02 is using the discovered Python interpreter at
+/usr/bin/python3.12, but future installation of another Python interpreter could change the meaning
+of that path. See https://docs.ansible.com/ansible-
+core/2.18/reference_appendices/interpreter_discovery.html for more information.
+
+2025-08-07 08:08:48,776 p=6364 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:08:48,783 p=6364 u=root n=ansible INFO| TASK [users : Create user] *************************************************************************
+2025-08-07 08:08:49,392 p=6364 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:08:49,393 p=6364 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:08:49,404 p=6364 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:08:49,409 p=6364 u=root n=ansible INFO| TASK [users : Add authorized SSH key for devops] ***************************************************
+2025-08-07 08:08:50,018 p=6364 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:08:50,023 p=6364 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:08:50,036 p=6364 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:08:50,052 p=6364 u=root n=ansible INFO| TASK [ssh : Disable root login via SSH] ************************************************************
+2025-08-07 08:08:50,538 p=6364 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:08:50,544 p=6364 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:08:50,544 p=6364 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:08:50,552 p=6364 u=root n=ansible INFO| TASK [ssh : Disable password auth] *****************************************************************
+2025-08-07 08:08:50,945 p=6364 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:08:50,946 p=6364 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:08:50,952 p=6364 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:08:50,959 p=6364 u=root n=ansible INFO| TASK [ssh : Restart SSH service] *******************************************************************
+2025-08-07 08:08:51,841 p=6364 u=root n=ansible INFO| changed: [web01]
+2025-08-07 08:08:51,848 p=6364 u=root n=ansible INFO| changed: [web03]
+2025-08-07 08:08:51,853 p=6364 u=root n=ansible INFO| changed: [web02]
+2025-08-07 08:08:51,870 p=6364 u=root n=ansible INFO| TASK [updates : Update apt cache] ******************************************************************
+2025-08-07 08:08:54,048 p=6364 u=root n=ansible INFO| changed: [web01]
+2025-08-07 08:08:54,121 p=6364 u=root n=ansible INFO| changed: [web02]
+2025-08-07 08:09:09,143 p=6364 u=root n=ansible INFO| changed: [web03]
+2025-08-07 08:09:09,149 p=6364 u=root n=ansible INFO| TASK [updates : Upgrade all packages] **************************************************************
+2025-08-07 08:09:10,586 p=6364 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:09:10,604 p=6364 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:09:10,995 p=6364 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:09:11,014 p=6364 u=root n=ansible INFO| TASK [firewall : Ensure UFW is installed] **********************************************************
+2025-08-07 08:09:12,093 p=6364 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:09:12,123 p=6364 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:09:12,143 p=6364 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:09:12,148 p=6364 u=root n=ansible INFO| TASK [firewall : Allow OpenSSH] ********************************************************************
+2025-08-07 08:09:12,962 p=6364 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:09:12,964 p=6364 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:09:12,992 p=6364 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:09:12,998 p=6364 u=root n=ansible INFO| TASK [firewall : Enable UFW] ***********************************************************************
+2025-08-07 08:09:13,728 p=6364 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:09:13,748 p=6364 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:09:13,766 p=6364 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:09:13,783 p=6364 u=root n=ansible INFO| TASK [tomcat : Set Tomcat version] *****************************************************************
+2025-08-07 08:09:13,822 p=6364 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:09:13,823 p=6364 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:09:13,831 p=6364 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:09:13,835 p=6364 u=root n=ansible INFO| TASK [tomcat : Create tomcat group] ****************************************************************
+2025-08-07 08:09:14,341 p=6364 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:09:14,349 p=6364 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:09:14,349 p=6364 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:09:14,355 p=6364 u=root n=ansible INFO| TASK [tomcat : Create tomcat user] *****************************************************************
+2025-08-07 08:09:14,794 p=6364 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:09:14,812 p=6364 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:09:14,830 p=6364 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:09:14,836 p=6364 u=root n=ansible INFO| TASK [tomcat : Download Tomcat] ********************************************************************
+2025-08-07 08:09:54,692 p=6364 u=root n=ansible INFO| changed: [web03]
+2025-08-07 08:10:00,537 p=6364 u=root n=ansible INFO| changed: [web01]
+2025-08-07 08:10:14,972 p=6364 u=root n=ansible INFO| changed: [web02]
+2025-08-07 08:10:14,980 p=6364 u=root n=ansible INFO| TASK [tomcat : Create install directory] ***********************************************************
+2025-08-07 08:10:15,489 p=6364 u=root n=ansible INFO| changed: [web02]
+2025-08-07 08:10:15,495 p=6364 u=root n=ansible INFO| changed: [web01]
+2025-08-07 08:10:15,505 p=6364 u=root n=ansible INFO| changed: [web03]
+2025-08-07 08:10:15,514 p=6364 u=root n=ansible INFO| TASK [tomcat : Extract Tomcat] *********************************************************************
+2025-08-07 08:10:17,034 p=6364 u=root n=ansible INFO| changed: [web01]
+2025-08-07 08:10:17,053 p=6364 u=root n=ansible INFO| changed: [web02]
+2025-08-07 08:10:17,081 p=6364 u=root n=ansible INFO| changed: [web03]
+2025-08-07 08:10:17,099 p=6364 u=root n=ansible INFO| TASK [nginx : Install NGINX] ***********************************************************************
+2025-08-07 08:10:27,588 p=6364 u=root n=ansible INFO| changed: [web01]
+2025-08-07 08:10:27,705 p=6364 u=root n=ansible INFO| changed: [web03]
+2025-08-07 08:10:27,976 p=6364 u=root n=ansible INFO| changed: [web02]
+2025-08-07 08:10:27,984 p=6364 u=root n=ansible INFO| TASK [nginx : Ensure NGINX is running] *************************************************************
+2025-08-07 08:10:28,586 p=6364 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:10:28,630 p=6364 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:10:28,690 p=6364 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:10:28,695 p=6364 u=root n=ansible INFO| TASK [nginx : Replace default NGINX index.html] ****************************************************
+2025-08-07 08:10:29,549 p=6364 u=root n=ansible INFO| changed: [web01]
+2025-08-07 08:10:29,556 p=6364 u=root n=ansible INFO| changed: [web03]
+2025-08-07 08:10:29,556 p=6364 u=root n=ansible INFO| changed: [web02]
+2025-08-07 08:10:29,575 p=6364 u=root n=ansible INFO| TASK [memcached : Install Memcached and libmemcached] **********************************************
+2025-08-07 08:10:36,792 p=6364 u=root n=ansible INFO| changed: [web03]
+2025-08-07 08:10:36,876 p=6364 u=root n=ansible INFO| changed: [web02]
+2025-08-07 08:10:36,880 p=6364 u=root n=ansible INFO| changed: [web01]
+2025-08-07 08:10:36,887 p=6364 u=root n=ansible INFO| TASK [memcached : Ensure Memcached is running] *****************************************************
+2025-08-07 08:10:37,518 p=6364 u=root n=ansible INFO| ok: [web01]
+2025-08-07 08:10:37,569 p=6364 u=root n=ansible INFO| ok: [web02]
+2025-08-07 08:10:37,593 p=6364 u=root n=ansible INFO| ok: [web03]
+2025-08-07 08:10:37,606 p=6364 u=root n=ansible INFO| PLAY RECAP *****************************************************************************************
+2025-08-07 08:10:37,606 p=6364 u=root n=ansible INFO| web01                      : ok=22   changed=8    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 08:10:37,607 p=6364 u=root n=ansible INFO| web02                      : ok=22   changed=8    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 08:10:37,607 p=6364 u=root n=ansible INFO| web03                      : ok=22   changed=8    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

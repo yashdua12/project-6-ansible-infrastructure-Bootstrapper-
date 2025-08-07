@@ -1,0 +1,15 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: Create user
+  user:
+    name: mahesh
+    groups: sudo
+    shell: /bin/bash
+    state: present
+    create_home: yes
+
+- name: Add authorized SSH key for devops
+  authorized_key:
+    user: mahesh
+    key: "{{ lookup('file', 'files/ansible.pub') }}"
+

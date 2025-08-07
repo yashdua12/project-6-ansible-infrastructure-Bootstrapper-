@@ -1,0 +1,32 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: Install MySQL Server
+  apt:
+    name: mysql-server
+    state: present
+  become: yes
+
+- name: Start and Enable MySQL Service
+  service:
+    name: mysql
+    state: started
+    enabled: yes
+  become: yes
+
+- name: Create MySQL Database
+  community.mysql.mysql_db:
+    name: users
+    state: present
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+  become: yes
+
+- name: Create MySQL User
+  community.mysql.mysql_user:
+    name: admin
+    password: yash123
+    priv: 'myappdb.*:ALL'
+    host: '%'
+    state: present
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+  become: yes
+

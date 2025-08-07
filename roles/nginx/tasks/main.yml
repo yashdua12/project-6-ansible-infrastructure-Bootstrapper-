@@ -1,0 +1,19 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: Install NGINX
+  apt:
+    name: nginx
+    state: present
+    update_cache: yes
+
+- name: Ensure NGINX is running
+  service:
+    name: nginx
+    state: started
+    enabled: yes
+
+- name: Replace default NGINX index.html
+  copy:
+    content: "<h1>Welcome to NGINX deployed by Ansible</h1>"
+    dest: /var/www/html/index.html
+

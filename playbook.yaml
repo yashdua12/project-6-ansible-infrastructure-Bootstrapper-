@@ -1,0 +1,12 @@
+- name: Bootstrap the server infrastructure
+  hosts: webhosts
+  become: yes
+  roles:
+    - users
+    - ssh
+    - updates
+    - firewall
+    - tomcat
+    - nginx
+    - memcached
+
